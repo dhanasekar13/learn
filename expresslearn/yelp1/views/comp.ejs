@@ -1,0 +1,12 @@
+<h3>the component of the entity are </h3>
+
+<% value.forEach(function (val){ %>
+  <div>
+<%= val.chk%>
+</div>
+<p> <a href="/comp/<%=  val._id %>">More INformation</a> </p>
+<% }) %>
+<div class="">
+  <h5>To add data</h5>
+  <a href="/comp/new">click me</a>
+</div>
